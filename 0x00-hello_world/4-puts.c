@@ -1,5 +1,4 @@
-#!/bin/bash
- #include <stdio.h>
+#include <stdio.h>
 /**
  * main - You write anything without special keys otherwise betty wont run it
  * Return: 0
