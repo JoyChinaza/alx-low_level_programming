@@ -1,4 +1,3 @@
-Task 2
 #include "main.h"
 
 /**
