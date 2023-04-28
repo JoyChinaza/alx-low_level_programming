@@ -12,8 +12,8 @@
 
   while (a < n && n > 0)
   {
-   putchar(*);
-   a++;
+     putchar(*);
+     a++;
 }
-   _putchar('\n');
+       _putchar('\n');
 }
