@@ -1,6 +1,3 @@
-#include "main.h"
-#include <stdio.h>
-
 /**
  * main - Fizz-Buzz test
  *
@@ -9,7 +6,6 @@
  *
  * Return: zero
  */
-
 int main(void)
 {
 	int i;
