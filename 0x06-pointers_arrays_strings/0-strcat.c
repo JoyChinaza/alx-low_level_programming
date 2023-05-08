@@ -26,7 +26,7 @@ char *_strcat(char *dest, char *src)
     /* Add a null terminator to the end of the concatenated string */
     *ptr = '0';
 
-    /* Return a pointer to the resulting string dest */
+    /*Return a pointer to the resulting string dest*/
     return dest;
 }
 
