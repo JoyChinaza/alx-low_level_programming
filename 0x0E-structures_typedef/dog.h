@@ -1,5 +1,5 @@
 #ifndef DOG_H
-#define DOG_H
+#define DOg_H
 
 /**
  * struct dog - a dog's basic info
@@ -9,6 +9,7 @@
  *
  * Description: Longer description
  */
+int main(void)
 struct dog
 {
 	char *name;
