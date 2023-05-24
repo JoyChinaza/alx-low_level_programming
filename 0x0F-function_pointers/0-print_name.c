@@ -1,18 +1,14 @@
 #include "function_pointers.h"
-#include <stdio.h>
-#include <stddef.h>
 
 /**
- * print_name - print name using pointer to function
- * @name: string to add to task zero
- * @f: pointer to function of task zero
- * Return: nothing
+ * print_name - prints a name.
+ * @name: input name.
+ * @f: function pointer.
+ *
+ * Return: no return.
  */
-
 void print_name(char *name, void (*f)(char *))
 {
-	if (name == NULL || f == NULL)
-		return;
-
-	f(name);
+	if (name && f)
+		f(name);
 }
