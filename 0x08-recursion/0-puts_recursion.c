@@ -1,16 +1,6 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-_puts_recursion("Puts with recursion");
-return (0);
-}
-/**
  * _puts_recursion - function like puts() puts with recursion;
  * @s: input and print string
  * Return: Always 0 (Success)
