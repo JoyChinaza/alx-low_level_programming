@@ -6,7 +6,6 @@
 #define ERR_MSG "Error"
 
 /**
- * A program that multiplies two positive numbers
  * is_digit - checks if a string contains a non-digit char
  * @s: string to be evaluated
  * simple_print_buffer - prints buffer in hexa
