@@ -5,7 +5,7 @@
 
 
 /**
- * add_nodeint_end: THIS ADDS A NODE AT THE END OF A LINKED LIST
+ * add_nodeint_end: THIS ADDS A NODE AT THE END OF LINKED LIST
  *
  * @head: THIS IS THE POINTER TO THE FIRST ELEM IN LIST
  *
