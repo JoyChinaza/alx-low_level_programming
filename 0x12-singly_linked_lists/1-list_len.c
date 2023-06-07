@@ -3,45 +3,23 @@
 #include <stdio.h>
 #include "lists.h"
 
-
 /**
- * add_node - THIS ADDS NEW NODE AT THE BEGINN OF list_t list
+ * list_len - THIS IS A FUNCTION THAT RETURNS THE NUMBER OF ELEM
  *
- * @head: THIS IS DOUBLE POINTER AND POINTS TO NEXT NODE list_t list
+ * @h: THIS IS THE PARAMETER FUNCTION FOR ARG
  *
- * @str: THIS IS NEW STRING IN THE NODE
- *
- * Return: THE ADDRESS OF NEW ELEM
+ * Return: NUMBER OF ELEM IN A LINKED LIST
  */
 
-list_t *add_node(list_t **head, const char *str)
+size_t list_len(const list_t *h)
 {
-	/*
-	 * list_t str;
-	str->next = head;
+	size_t count = 0;
 
-	*head->next = str;
+	while (h != NULL)
+	{
+		count++;
+		h = h->next;
+	}
 
-	returns (&str);
-	*/
-
-
-	list_t *new;
-	unsigned int len = 0;
-
-	while (str[len])
-		len++;
-
-	new = malloc(sizeof(list_t));
-	if (!new)
-		return (NULL);
-
-	new->str = strdup(str);
-	new->len = len;
-	new->next = (*head);
-	(*head) = new;
-
-	return (*head);
-
-
+	return (count);
 }
