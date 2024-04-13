@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *main - Entry point
+ *main - Entry point for the body of this project
  *
  *Return: nothing, return void
  */
