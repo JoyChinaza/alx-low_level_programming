@@ -11,10 +11,10 @@
 
 int main()
 
-	char (alphabet) a , z;
+	char (alphabet); a , z
 
-	char (alphabet) a = 5
-	char (alphabet) z = 10
+	char (alphabet); a = 5
+	char (alphabet); z = 10
 {
 
 	alphabet a = 5
