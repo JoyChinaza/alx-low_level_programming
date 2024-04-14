@@ -9,13 +9,16 @@
 
 int main()
 
-	char alphabet (a,z);
+	char (alphabet a,alphabet z);
 
-	char char a = 5
-	char char b = 10
+	char (alphabet a = 5)
+	char (alphabet z = 10)
 {
 
-	if (alphabet a > alphabet z);
+	alphabet a = 5
+	alphabet z = 10
+	
+	if (alphabet a < alphabet z);
 	    print_alphabet_x10();
 
 
