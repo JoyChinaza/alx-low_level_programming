@@ -9,18 +9,20 @@
 
 int main(void)
 
-	void print_alphabet_10_times() 
+	void print_alphabet_10_times(void) 
 {
-		    char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
-		        int i, j;
 
-			    for (i = 0; i < 10; i++)
-			    
-				            for (j = 0; j < 26; j++) 
-					    
-						                printf("%c", alphabet[j]);
-								        
-					            printf("\n");
+	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
+		        
+		int i, j;
+
+		 for (i = 0; i < 10; i++)
+			  
+		for (j = 0; j < 26; j++)
+		       
+			printf("%c", alphabet[j]);
+								      
+		 printf("\n");
 						        
 	}
 
