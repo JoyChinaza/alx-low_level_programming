@@ -17,10 +17,10 @@ int main(void)
 
 	alphabet a = 5
 	alphabet z = 10
+
 	if alphabet a < alphabet z
 	
 	    print_alphabet_x10();
 
-
-	        return (0);
+       	return (0);
 }
