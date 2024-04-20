@@ -4,8 +4,7 @@
  *   main - check the code.
  *   print ten times of alphabet a to z
  *
- *   Return: Always 0.
- *    
+ *   Return: Always 0
  */
 
 int main(void)
@@ -18,9 +17,8 @@ int main(void)
 
 	alphabet a = 5
 	alphabet z = 10
-	
 	if alphabet a < alphabet z
-
+	
 	    print_alphabet_x10();
 
 
