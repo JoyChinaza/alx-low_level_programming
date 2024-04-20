@@ -9,18 +9,20 @@
 
 int main(void)
 
-	char (alphabet); a, z
-
-	char (alphabet); a = 5
-	char (alphabet); z = 10
+	void print_alphabet_10_times() 
 {
+		    char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
+		        int i, j;
 
-	alphabet a = 5
-	alphabet z = 10
+			    for (i = 0; i < 10; i++)
+			    
+				            for (j = 0; j < 26; j++) 
+					    
+						                printf("%c", alphabet[j]);
+								        
+					            printf("\n");
+						        
+	}
 
-	if alphabet a < alphabet z
-	
-	    print_alphabet_x10();
 
-       	return (0);
-}
+
