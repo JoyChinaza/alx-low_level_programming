@@ -2,16 +2,15 @@
 
 /**
  *   main - check the code.
- *   
  *   print ten times of alphabet a to z
  *
  *     Return: Always 0.
  *    
  */
 
-int main()
+int main(void)
 
-	char (alphabet); a , z
+	char (alphabet); a,z
 
 	char (alphabet); a = 5
 	char (alphabet); z = 10
