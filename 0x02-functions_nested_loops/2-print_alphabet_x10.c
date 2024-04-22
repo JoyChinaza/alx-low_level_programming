@@ -13,14 +13,13 @@ void print_alphabet_10_times(void)
 
 	char alphabet_10_times[] = "abcdefghijklmnopqrstuvwxyz"
 {
-		return alphabet_10_times
+		return (alphabet_10_times);
 }
-	  	int main(void)
+	int main(void)
 	{
 		printf("%s, alphabet_10_times);
 
 		return (0);
-	}
-}		
-
+	}		
+}
 
