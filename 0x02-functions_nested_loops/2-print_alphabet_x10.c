@@ -8,7 +8,7 @@
  */
 
 int main(void)
-void print_alphabet_10_times(void) 
+void print_alphabet_10_times(void); 
 {
 
 	char alphabet_10_times[] = "abcdefghijklmnopqrstuvwxyz";
@@ -18,8 +18,8 @@ void print_alphabet_10_times(void)
 	int main(void)
 	{
 		printf("%s", alphabet_10_times);
-
+	}
 		return (0);
-	}		
+			
 }
 
