@@ -8,7 +8,6 @@
  */
 
 int main(void)
-
 void print_alphabet_10_times(void) 
 {
 
@@ -16,7 +15,6 @@ void print_alphabet_10_times(void)
 {
 		return alphabet_10_times
 }
-	
 	  	int main(void)
 	{
 		printf("%s, alphabet_10_times);
