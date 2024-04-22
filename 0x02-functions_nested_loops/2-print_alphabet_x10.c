@@ -12,19 +12,19 @@ int main(void)
 	void print_alphabet_10_times(void) 
 {
 
-	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
+	char alphabet_10_times[] = "abcdefghijklmnopqrstuvwxyz";
 		        
-		int i, j;
-
-		 for (i = 0; i < 10; i++)
-			  
-		for (j = 0; j < 26; j++)
-		       
-			printf("%c", alphabet[j]);
-								      
-		 printf("\n");
+     	{
+		return alphabet_10_times
 						        
 	}
+	
+	  	int main()
+	{
+		printf ("%s, alphabet_10_times);
 
+		return 0;
+	}
+}		
 
 
