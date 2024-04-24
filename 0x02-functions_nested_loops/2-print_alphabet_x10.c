@@ -12,7 +12,8 @@ void print_alphabet_10_times(void);
 {
 
 	char alphabet_10_times[] = "abcdefghijklmnopqrstuvwxyz";
-	alphabet_10_times = alphabet_10_times ++;
+	alphabet_10_times = alphabet_10_times++;
+
 {
 		return (alphabet_10_times);
 }
@@ -20,7 +21,6 @@ void print_alphabet_10_times(void);
 	{
 		printf("%s", alphabet_10_times);
 	}
-		return (0);
-			
+		return (0);			
 }
 
