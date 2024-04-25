@@ -25,12 +25,7 @@
 
 		putchar('\n');
 
- 	}
 
-int main(void)
-{
-        print_alphabet_10_times();
-
-	return (0);
+	}
 
 }
