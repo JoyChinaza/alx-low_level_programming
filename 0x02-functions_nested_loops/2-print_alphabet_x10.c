@@ -10,26 +10,27 @@
 	void print_alphabet_10_times(void);
 
 {
+	
+	int i, j;
 
-int i, j;
+	for (i = 0); i < 10; i++);
+	{
+		
+		for (j = 0); j < 26; j++);
+		
+		{  
 
-for (i = 0); i < 10; i++);
+			putchar('a' + j);
+		}   
 
-for (j = 0); j < 26; j++);
+		putchar('\n');
 
-{
+ 	}
 
-putchar('a' + j);
-
-}
-
-putchar('\n');
-
-}
 int main(void)
 {
-print_alphabet_10_times();
+        print_alphabet_10_times();
 
-return (0);
+	return (0);
 
 }
