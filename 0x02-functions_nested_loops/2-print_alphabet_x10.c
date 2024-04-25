@@ -15,15 +15,17 @@ int i, j;
 	for (j = 0; j < 26; j++);
 {
 
- putchar('a' + j);
+putchar('a' + j);
 
 }
 
-         putchar('\n');
+putchar('\n');
+
 }
 int main(void)
 {
      print_alphabet_10_times();
 
-     return 0;
+  return (0);
+
 }
