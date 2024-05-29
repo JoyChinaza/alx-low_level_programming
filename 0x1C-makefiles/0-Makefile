@@ -1,0 +1,17 @@
+# Makefile for building the 'school' executable
+# Compiler to use
+
+
+CC = gcc
+SRCS = main.c other_source_file.c
+EXEC = school
+all: $(EXEC)
+$(EXEC):
+	$(CC) -o $(EXEC) $(SRCS)
+
+clean:
+	rm -f $(EXEC)
+
+# Phony targets
+.PHONY: all clean
+
