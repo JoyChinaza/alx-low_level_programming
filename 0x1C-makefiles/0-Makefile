@@ -1,18 +1,21 @@
-/** Makefile for building the 'school' executable
-  *Compiler to use
-  */
-
-
 CC = gcc
+
+CFLAGS = -Wall -Wextra -pedantic
+
 SRCS = main.c other_source_file.c
+
+OBJS = $(SRCS:.c=.o)
+
 EXEC = school
+
 all: $(EXEC)
-$(EXEC):
-	$(CC) -o $(EXEC) $(SRCS)
+
+$(EXEC): $(OBJS)
+	$(CC) $(CFLAGS) -o $@ $^
+
+%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm -f $(EXEC)
-
-# Phony targets
-.PHONY: all clean
+	rm -f $(OBJS) $(EXEC)
 
