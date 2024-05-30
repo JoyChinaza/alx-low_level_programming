@@ -1,11 +1,6 @@
 CC = gcc
-
-CFLAGS = -Wall -Wextra -pedantic
-
-SRCS = main.c other_source_file.c
-
+SRCS = main.c school.c
 OBJS = $(SRCS:.c=.o)
-
 EXEC = school
 
 all: $(EXEC)
@@ -15,7 +10,3 @@ $(EXEC): $(OBJS)
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
-
-clean:
-	rm -f $(OBJS) $(EXEC)
-
