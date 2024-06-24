@@ -1,27 +1,26 @@
 #include "main.h"
 
 /**
- *   main - check the code.
- *   print ten times of alphabet a to z
+ * print_alphabet_x10 - prints alphabets 10
  *
- *   Return: Always 0
- **/
+ * Description: prints 10 times
+ * Return: Always(0).
+ */
 
-	void print_alphabet_x10(void)
-
+void print_alphabet_x10(void)
 {
+	int alphabet_count = 0;
 
-	int i, j;
+	while (alphabet_count < 10)
+	{
+		char ch = 'a';
 
-for (i = 0; i < 10; i++)
-
-{
-
-for (j = 0; j < 26; j++)
-
-	putchar('a' + j);
-
-putchar('\n');
-}
-
+		while (ch <= 'z')
+		{
+			_putchar(ch);
+			ch++;
+		}
+		alphabet_count++;
+		_putchar('\n');
+	}
 }
